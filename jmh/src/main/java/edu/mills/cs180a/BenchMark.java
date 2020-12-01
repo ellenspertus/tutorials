@@ -1,4 +1,4 @@
-package com.baeldung;
+package edu.mills.cs180a;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;

@@ -1,4 +1,4 @@
-package com.baeldung;
+package edu.mills.cs180a;
 
 public class BenchmarkRunner {
 
