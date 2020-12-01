@@ -1,13 +1,17 @@
-## Java Microbenchmark Harness
+# Java Microbenchmark Harness
 
-This module contains articles about the Java Microbenchmark Harness (JMH).
 
-I haven't been able to get this to work in Eclipse, but it does work at the command line:
-
+### Building at command line
 ```
 mvn clean compile install  assembly:single
 java -jar target/jmh-1.0-SNAPSHOT-jar-with-dependencies.jar
  ```
+ 
+### Building in Eclipse
+ 
+ 1. `Run as > Maven clean`.
+ 2. `Run as > Maven install`.
+ 3. `Run as > Java application` with main class `org.openjdk.jmh.Main`.
 
 ### Relevant articles:
 
