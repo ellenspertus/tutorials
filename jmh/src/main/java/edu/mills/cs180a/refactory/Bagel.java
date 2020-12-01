@@ -20,17 +20,30 @@ public class Bagel {
     private final Type type;
     private Category currentCategory;
 
-    enum Type {
-        PLAIN("plain", Category.OLD_FASHIONED), POPPY_SEED("poppy seed",
-                Category.OLD_FASHIONED), SESAME_SEED("sesame seed",
-                        Category.OLD_FASHIONED), ONION("onion", Category.OLD_FASHIONED), EVERYTHING(
-                                "everything", Category.OLD_FASHIONED), ASIAGO("asiago",
-                                        Category.GOURMET), BLUEBERRY("blueberry",
-                                                Category.GOURMET), CINNAMON_RAISIN(
-                                                        "cinnamon raisin",
-                                                        Category.GOURMET), SUN_DRIED_TOMATO(
-                                                                "sun-dried tomato",
-                                                                Category.GOURMET);
+    public enum Type {
+        PLAIN("plain", Category.OLD_FASHIONED),
+        POPPY_SEED(
+                "poppy seed",
+                Category.OLD_FASHIONED),
+        SESAME_SEED(
+                "sesame seed",
+                Category.OLD_FASHIONED),
+        ONION("onion", Category.OLD_FASHIONED),
+        EVERYTHING(
+                "everything",
+                Category.OLD_FASHIONED),
+        ASIAGO(
+                "asiago",
+                Category.GOURMET),
+        BLUEBERRY(
+                "blueberry",
+                Category.GOURMET),
+        CINNAMON_RAISIN(
+                "cinnamon raisin",
+                Category.GOURMET),
+        SUN_DRIED_TOMATO(
+                "sun-dried tomato",
+                Category.GOURMET);
 
         private final String name;
         private final Category category;
