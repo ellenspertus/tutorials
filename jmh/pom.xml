@@ -36,7 +36,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>edu.mills.cs180a.BenchmarkRunner</mainClass>
+                            <mainClass>org.openjdk.jmh.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -52,7 +52,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>edu.mills.cs180a.BenchmarkRunner</mainClass>
+                            <mainClass>org.openjdk.jmh.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
