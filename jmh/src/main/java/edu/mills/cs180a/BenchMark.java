@@ -26,6 +26,7 @@ public class BenchMark {
 
     @Benchmark
     @OutputTimeUnit(TimeUnit.MICROSECONDS)
+    @Fork(value = 2)
     @Warmup(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
     @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
     @BenchmarkMode(Mode.AverageTime)
