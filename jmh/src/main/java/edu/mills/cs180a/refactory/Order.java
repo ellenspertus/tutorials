@@ -50,7 +50,7 @@ public class Order {
      * @return the receipt string
      */
     public String generateReceipt() {
-        return TextReceiptGenerator.getInstance().generateReceipt(this);
+        return TextReceiptGenerator1.getInstance().generateReceipt(this);
     }
 
     /**

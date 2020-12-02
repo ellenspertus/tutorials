@@ -1,11 +1,11 @@
 package edu.mills.cs180a.refactory;
 
-public class ReceiptGenerator {
+public class ReceiptGenerator1 {
     private final String bagTemplate;
     private final String footerTemplate;
     private final String discountTemplate;
 
-    protected ReceiptGenerator(String bag, String footer, String discount) {
+    protected ReceiptGenerator1(String bag, String footer, String discount) {
         bagTemplate = bag;
         footerTemplate = footer;
         discountTemplate = discount;
